@@ -139,7 +139,7 @@ const MILLISECONDS_PER_HOUR = 60 * 60 * 1000; // 3,600,000;
 setTimeout(stopTimer, MILLISECONDS_PER_HOUR);
 ~~~
 
-Much better, isn't it? The variable is declared with a descriptive name, and you don't need to perform any calculations when reading this code. 
+Much better, innit? The variable is declared with a descriptive name, and you don't need to perform any calculations when reading this code. 
 
 You might wonder why this variable is declared with all caps, when we have recommended camelCase earlier. This is a convention to be used when the programmer is absolutely sure that the variable is _truly_ a constant. We know that the milliseconds in an hour will never change, so it's appropriate here.
 
